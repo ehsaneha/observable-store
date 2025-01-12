@@ -1,0 +1,35 @@
+{
+  "name": "@ehsaneha/observable-store",
+  "version": "1.0.0",
+  "description": "A simple yet powerful state management library inspired by `zustand` which allows you to create observable stores in your JavaScript or TypeScript projects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsaneha/observable-store.git"
+  },
+  "devDependencies": {
+    "@types/lodash.isequal": "^4.5.8",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "Observable Store",
+    "State Management",
+    "Zustand"
+  ],
+  "author": "ehsaneha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehsaneha/observable-store/issues"
+  },
+  "homepage": "https://github.com/ehsaneha/observable-store#readme",
+  "dependencies": {
+    "@ehsaneha/utils": "^1.0.0",
+    "lodash.isequal": "^4.5.0"
+  }
+}
