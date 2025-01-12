@@ -2,7 +2,7 @@
 
 A simple yet powerful state management library inspired by `zustand` which allows you to create observable stores in your JavaScript or TypeScript projects. It provides a reactive store that supports state management with built-in observer pattern capabilities, enabling the registration of observers that will be notified when the store's state changes.
 
-**_NOTE:_** If you want to use this package in a react app its better to use the `@ehsaneha/react-observable-store` package instead due to rerenders of functional components.
+**_NOTE:_** ⚠️ If you want to use this package in a react app its better to use the `@ehsaneha/react-observable-store` package instead due to rerenders of functional components.
 
 ## Features
 
